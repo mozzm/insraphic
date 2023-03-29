@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var ary = [234, 43, 55, 63, 5, 6, 235, 547];
+
+        function bblSort(ary) {
+
+            for (var i = 0; i < ary.length; i++) {
+                for (var j = 0; j < (ary.length - i - 1); j++) {
+
+                    if (ary[j] > ary[j + 1]) {
+                        var temp = ary[j]
+                        ary[j] = ary[j + 1]
+                        ary[j + 1] = temp
+                    }
+                }
+            }
+            console.log(ary);
+        }
+        bblSort(ary);
+    </script>
+</body>
+
+</html>

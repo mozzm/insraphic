@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comparison {
+    max-width: 940px;
+    font-size: 16px;
+    text-align: center;
+    color: #260101;
+}
+
+.comparison table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.comparison .tl2 {
+    border-right: 0;
+    font-size: 22px;
+    padding-left: 0;
+    color: #727272;
+    font-weight: 700;
+    padding-top: 20px;
+    line-height: 27px;
+}
+
+.comparison th {
+    font-weight: 400;
+    padding: 20px 0 0;
+}
+
+.silver {
+    background: #fff;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 7px 21px 0 rgb(0 0 0 / 10%);
+    border: 6px solid #9BF2EA;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 8px 4px;
+}
+
+.Gold {
+    background: #fff;
+    width: 100%;
+    height: 62px;
+    box-shadow: 0 7px 21px 0 rgb(0 0 0 / 10%);
+    border: 6px solid #41BFB3;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 8px 4px;
+}
+
+.Platinum {
+    background: #fff;
+    width: 100%;
+    height: 62px;
+    box-shadow: 0 7px 21px 0 rgb(0 0 0 / 10%);
+    border: 6px solid #9BF2EA;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 8px 4px;
+    font-size: 10px;
+}
+
+.comparison .price-now span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.comparison .compare-row .fa.fa-check {
+    font-size: 19px;
+    color: #41BFB3;
+}
+
+.compare-row .fa.fa-times {
+    font-size: 23px;
+    color: #848484;
+}
+
+.comparison .price-info {
+    padding: 5px 15px 15px;
+}
+
+.comparison tbody tr:nth-child(odd) {
+    display: none !important;
+}
+
+.comparison tr td:first-child {
+    text-align: left;
+    border-right: 2px solid #d8d8d8;
+}
+
+.comparison td,
+.comparison th {
+    empty-cells: show;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    padding: 24px;
+}
+
+.comparison .compare-row {
+    border-bottom: 2px solid #d8d8d8;
+    border-top: 2px solid #d8d8d8;
+}
+
+.comparison table tbody tr:last-child {
+    display: table-row !important;
+    border-bottom: none;
+}
+
+.comparison .price-buy {
+    background: #41BFB3;
+    padding: 10px 14px;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: 5px 0 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}

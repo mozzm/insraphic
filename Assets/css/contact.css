@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-image-container{
+    background-image: url("/Assets/image/conact-bg.jpg");
+    height: 350px;
+    background-size: cover;
+    z-index: 0;
+    background-position: bottom center;
+}
+.about-continer-overlay{
+    width: 100%;
+  height: 100%;
+  background-color: #0B0101;
+  opacity: 0.5;
+  transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.contact-image-container h1{
+    padding: 150px 20px;
+}
+.contact-container h1{
+    font-size: 80px;
+    line-height: 90px;
+    color: #454249;
+}
+
+.Social-icon{
+    font-size: 25px;
+    color: #41BFB3;
+}
+.number{
+    font-size: 20px;
+    
+}
+.btn-send{
+    background-color: #41BFB3;
+    color: #FFF;
+    padding: 14PX 30PX;
+    border-radius: 30PX;
+    margin: 40px 0px;
+}
+.start-text{
+    color: #41BFB3;
+}
